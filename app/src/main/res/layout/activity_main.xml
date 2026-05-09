@@ -24,9 +24,11 @@
             android:adjustViewBounds="true" />
 
         <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleLarge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp" />
+            android:layout_gravity="center" />
 
     </LinearLayout>
 </FrameLayout>

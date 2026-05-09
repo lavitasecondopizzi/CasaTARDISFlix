@@ -1,4 +1,4 @@
-package com.example.casatardisflix;
+package net.casatardisflix.tv;
 
 import org.junit.Test;
 
