@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.CasaTARDISFlix" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">#050A14</item>
+        <item name="android:navigationBarColor">#050A14</item>
+        <item name="android:windowBackground">#050A14</item>
+    </style>
+
+    <style name="Theme.CasaTARDISFlix.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#050A14</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/tardis_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.CasaTARDISFlix</item>
+    </style>
+
+    <style name="Theme.CasaTARDISFlix" parent="Base.Theme.CasaTARDISFlix" />
+</resources>
